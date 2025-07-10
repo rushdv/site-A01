@@ -5,7 +5,7 @@
   font-style: normal;
 }
 
-.inter-normal{
+.inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
@@ -65,7 +65,7 @@ nav{
 .action-section{
     display: flex;
     justify-content: space-between;
-    margin: 80px 200px;
+    margin: 100px 200px;
 }
 .action-div{
     max-width: 450px;
@@ -75,4 +75,28 @@ nav{
 }
 .action-section, img{
     border-radius: 50px;
+}
+
+
+/* user section styles */
+
+.user-section{
+    background-color: #D9EAFD;
+    margin: 100px 200px;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+}
+.action-section, h3{
+    padding-top: 60px;
+}
+.user-div{
+    display: flex;
+    justify-content: space-around;
+    padding:  30px;
+}
+.user-div, h1{
+    font-size: 70px;
+    color: #471396;
+    margin: 0;
 }
