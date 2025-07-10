@@ -100,3 +100,35 @@ nav{
     color: #471396;
     margin: 0;
 }
+
+
+
+/* user say section styles */
+
+.users-say-section{
+    margin: 100px 200px;
+}
+.say-title{
+    text-align: center;
+}
+.say-div{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.users-say-div{
+    background-color: #eff2f5;
+    padding: 30px;
+    border-radius: 20px
+}
+.say-designer{
+    margin-top: -40px;
+    font-size: 25px;
+}
+.users-img{
+    display: flex;
+    
+}
+.users-img img{
+    width: 60px;
+}
