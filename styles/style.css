@@ -132,3 +132,32 @@ nav{
 .users-img img{
     width: 60px;
 }
+
+
+
+/* get touch section  */
+
+.get-touch{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+}
+.get-touch h3{
+    font-size: 85px;
+}
+form{
+    width: 50%;
+}
+form input{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 100%;
+    margin-bottom: 20px;
+}
+form button{
+    width: 100%;
+    padding: 30px;
+}
