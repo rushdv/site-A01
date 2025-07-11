@@ -37,7 +37,11 @@ body{
     font-size: 18px;
 }
 .btn-primary:hover{
-    box-shadow: 2px 2px 2px black;
+    border: 1px solid #471396;
+    background-color: #ffffff;
+    color: black;
+    font-weight: 600;
+    box-shadow: 2px 2px 10px black;
 }
 
 /* header styles */
@@ -131,11 +135,22 @@ nav{
 }
 .users-img{
     display: flex;
-    
+    align-items: center;
+    gap: 10px;
 }
-.users-img img{
-    width: 60px;
+.users-info{
+    display: flex;
+    flex-direction: column;
+}    
+
+
+.users-say-div:hover{
+    background-color: #ffffff;
+    color: black;
+    font-weight: 600;
+    box-shadow: 2px 2px 10px black;
 }
+
 
 
 /* focus section  */
@@ -165,10 +180,13 @@ form input{
     width: 100%;
     height: 60px;
     margin-bottom: 20px;
+    border-radius: 8px;
+    
 }
 textarea{
     width: 100%;
     margin-bottom: 20px;
+    border-radius: 8px;
 }
 form button{
     width: 100%;
